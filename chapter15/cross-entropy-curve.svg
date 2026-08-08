@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">Negative logarithm loss curve</title><desc id="desc">Loss is large when the correct class probability is near zero and approaches zero near one.</desc><rect width="960" height="430" fill="#f8fafc"/><text x="480" y="42" text-anchor="middle" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">L = −log p(correct)</text>
+  <line x1="105" y1="355" x2="875" y2="355" stroke="#334155" stroke-width="3"/><line x1="105" y1="355" x2="105" y2="75" stroke="#334155" stroke-width="3"/><path d="M128 90 C165 150 205 205 265 250 C355 310 525 340 855 352" fill="none" stroke="#e11d48" stroke-width="6"/>
+  <g font-family="sans-serif" fill="#334155"><text x="875" y="390" text-anchor="end" font-size="18">p(correct)</text><text x="68" y="78" font-size="18">loss</text><text x="105" y="382" text-anchor="middle">0</text><text x="855" y="382" text-anchor="middle">1</text></g>
+  <circle cx="313" cy="274" r="7" fill="#2563eb"/><text x="323" y="259" font-family="monospace" font-size="17" fill="#1e40af">p=0.27 → L=1.31</text><circle cx="667" cy="343" r="7" fill="#16a34a"/><text x="600" y="320" font-family="monospace" font-size="17" fill="#166534">p=0.73 → L=0.31</text>
+  <text x="480" y="414" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#64748b">higher correct probability → lower loss</text>
+</svg>
