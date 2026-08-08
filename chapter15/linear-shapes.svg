@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Linear layer matrix shapes</title><desc id="desc">Matrix X multiplied by W produces ten class scores per sample.</desc><rect width="960" height="360" fill="#f8fafc"/>
+  <text x="480" y="45" text-anchor="middle" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">Linear(49, 10, bias=False)</text>
+  <g font-family="monospace" text-anchor="middle"><rect x="75" y="100" width="190" height="170" rx="15" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/><text x="170" y="170" font-size="32" fill="#1e3a8a">X</text><text x="170" y="215" font-size="21" fill="#1e40af">[40, 49]</text>
+  <text x="310" y="195" font-size="38" fill="#475569">×</text><rect x="355" y="75" width="155" height="220" rx="15" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/><text x="433" y="170" font-size="32" fill="#4c1d95">W</text><text x="433" y="215" font-size="21" fill="#5b21b6">[49, 10]</text>
+  <text x="555" y="195" font-size="38" fill="#475569">=</text><rect x="615" y="100" width="260" height="170" rx="15" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/><text x="745" y="170" font-size="30" fill="#14532d">Y_pred</text><text x="745" y="215" font-size="21" fill="#166534">[40, 10]</text></g>
+  <text x="480" y="333" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#475569">49 features → 10 class scores</text>
+</svg>
